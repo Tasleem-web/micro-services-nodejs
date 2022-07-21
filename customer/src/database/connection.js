@@ -8,10 +8,10 @@ module.exports = async() => {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
-        console.log('Db Connected');
+        console.log('DB Connected');
         
     } catch (error) {
-        console.log('Error ============')
+        console.log('============ Error ============')
         console.log(error);
         process.exit(1);
     }
